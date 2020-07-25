@@ -1,0 +1,12 @@
+Git Commands:
+
+git --version	:	prints verison of git
+git config --global user.name "name"	: 	to set global name
+git config --global user.email "email"	: 	to set global email
+git config --global user.name	: 	to display global name
+git config --global user.email	: 	to display global email
+git config --list 	:	to list all config values
+git help <verb> or git <verb> --help	:	to display manual
+
+* Initalize a Repository from Existing Code
+git init
