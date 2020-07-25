@@ -10,3 +10,48 @@ git help <verb> or git <verb> --help	:	to display manual
 
 * Initalize a Repository from Existing Code
 git init
+
+* To Create .gitignore file
+"C:\Program Files\Git\usr\bin\touch.exe" .gitignore
+
+How to Ignore files in gitignore file
+.FolderName	:	to ignore folder
+*.file_ext	:	to ignore file extension
+
+
+To Add Git files to Staging Area
+git add filename	: 	to add induvisual file
+git add --all 	: 	to add All files
+git add -A 		:	to add All files
+
+To remove files from Staging area
+git reset filename	:	to remove specfic file
+git reset 	:	to remove entire files
+
+To commit these files:
+git commit -m "message"
+
+To find Status:
+git status
+
+To get log:
+git log
+
+Cloning a Remote Repository:
+git clone <url> <where to clone>
+
+Viewing info about remote repository
+git remote -v
+
+git branch -a
+
+To display changes made to code
+git diff
+
+Pushing Changes to remote repository
+git status
+git add -A
+git commit -m "message"
+git pull 
+git push
+
