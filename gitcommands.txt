@@ -55,3 +55,27 @@ git commit -m "message"
 git pull 
 git push
 
+To Create a Branch:
+git branch branch-name
+
+To display all Branch
+git branch
+
+To work on branch
+git checkout branchname
+
+To push branch after commit
+git push -u origin branch_name
+
+To merge branch with master
+git checkout master
+git pull origin master
+git branch --merged
+git merge branch_name
+git push origin master
+
+
+To Delete Branch
+git branch --merged	:	to see merged branches
+git branch -d branch_name	:	 to delete locally
+git push origin --delete branch-name
